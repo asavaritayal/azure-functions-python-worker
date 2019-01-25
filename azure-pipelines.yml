@@ -12,9 +12,9 @@ jobs:
   strategy:
     matrix:
       Python36:
-        python.version: '3.6.6'
+        python.version: '3.6'
       Python37:
-        python.version: '3.7.2'
+        python.version: '3.7'
     maxParallel: 1
 
   steps:
